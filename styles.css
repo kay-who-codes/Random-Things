@@ -1,0 +1,53 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Button Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  font-size: 24px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ff4500;
+  font-weight: bold;
+}
